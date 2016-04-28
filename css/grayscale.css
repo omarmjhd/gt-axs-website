@@ -101,7 +101,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: #F7CE00;;
     background-color: transparent;
 }
 
@@ -120,7 +120,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #F7CE00;
 }
 
 @media(min-width:768px) {
@@ -162,12 +162,21 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
+    color: #fff;
     font-size: 40px;
+}
+
+.brand-heading {
+    background-color: rgba(54,69,79, 0.8);
 }
 
 .intro .intro-body .intro-text {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 26px;
+}
+
+.intro-text {
+    background-color: rgba(110,127,128, 0.9);
 }
 
 @media(min-width:768px) {
