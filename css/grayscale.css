@@ -59,6 +59,7 @@ a:focus {
 
 .light {
     font-weight: 400;
+    font-size: 60px;
 }
 
 .navbar-custom {
@@ -165,7 +166,8 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 26px;
 }
 
 @media(min-width:768px) {
@@ -179,6 +181,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 26px;
     }
 }
