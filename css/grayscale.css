@@ -93,6 +93,11 @@ a:focus {
     color: #fff;
 }
 
+.navbar-custom a:hover {
+    color: #F7CE00;
+    background-color: rgba(40,14,135, 0.8);
+}
+
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -101,8 +106,8 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: #F7CE00;;
-    background-color: transparent;
+    color: #F7CE00;
+    background-color: rgba(40,14,135, 0.8);
 }
 
 .navbar-custom .nav li a:focus,
