@@ -274,6 +274,40 @@ a:focus {
     }
 }
 
+#wrap-about {
+    padding-top: 50px;
+}
+
+#wrap-objects {
+    padding-top: 50px;
+}
+
+#wrap-conclave {
+    padding-top: 50px;
+}
+
+#wrap-boyscouts {
+    padding-top: 50px;
+}
+
+#wrap-contact {
+    padding-top: 50px;
+}
+
+#icon {
+    font-size: 200px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+
+    #icon {
+        font-size: 100px;
+        padding-bottom: 20px
+    }
+}
+
+
 .content-section {
     height: 100vh;
 }
@@ -363,7 +397,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        height: 600px;
+        height: 100vh;
     }
 
     .download-section {

@@ -58,19 +58,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About Us</a>
+                        <a class="page-scroll" href="#wrap-about">About Us</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#conclave">Conclave</a>
+                        <a class="page-scroll" href="#wrap-conclave">Conclave</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#officers">Officers</a>
+                        <a class="page-scroll" href="#wrap-officers">Officers</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#boyscouts">Boy Scouts</a>
+                        <a class="page-scroll" href="#wrap-boyscouts">Boy Scouts</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#wrap-contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -87,7 +87,7 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h1><span class="brand-heading">&nbsp;Alpha Chi Sigma&nbsp;</span></h1>
                         <p><span class="intro-text" >&nbsp;Alpha Omega Chapter&nbsp;</span></p>
-                        <a href="#about" class="btn btn-circle page-scroll" style="background-color: #F7CE00;">
+                        <a href="#wrap-about" class="btn btn-circle page-scroll" style="background-color: #F7CE00;">
                             <i class="fa fa-angle-double-down animated" style="color: #fff;" onmouseover='this.style.color="#280E87"' onmouseout='this.style.color="#fff"'></i>
                         </a>
                     </div>
@@ -97,6 +97,7 @@
     </header>
 
     <!-- About Section -->
+    <div id="wrap-about">
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -114,26 +115,30 @@
             </div>
         </div>
     </section>
+    </div>
 
     <!-- 3 Objects Section -->
+    <div id="wrap-objects">
     <section id="objects" class="container content-section text-center pattern-section-1">
         <div class="row">
             <div class="col-lg-4">
-                <i class="fa fa-link" style="font-size: 200px; padding-bottom: 20px;" aria-hidden="true"></i>
+                <i class="fa fa-link" id="icon" aria-hidden="true"></i>
                 <p><strong>To bind</strong> its members with a tie of true and lasting friendship.</p>
             </div>
             <div class="col-lg-4">
-                <i class="fa fa-flask" style="font-size: 200px; padding-bottom: 20px;" aria-hidden="true"></i>
+                <i class="fa fa-flask" id="icon" aria-hidden="true"></i>
                 <p><strong>To strive</strong> for the advancement of chemistry both as a science and as a profession.</p>
             </div>
             <div class="col-lg-4">
-                <i class="fa fa-users" style="font-size: 200px; padding-bottom: 20px;" aria-hidden="true"></i>
+                <i class="fa fa-users" id="icon" aria-hidden="true"></i>
                 <p><strong>To aid</strong> its members by every honorable means in the attainment of their ambitions as chemists throughout their mortal lives.</p>
             </div>
         </div>
     </section>
+    </div>
 
     <!-- Conclave Section -->
+    <div id="wrap-conclave">
     <section id="conclave" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -148,11 +153,13 @@
             </div>
         </div>
     </section>
+    </div>
 
     <!-- TODO: Officers Section -->
 
     <!-- Boy Scouts Section -->
     <!-- TODO: fix sizing for boyscouts div -->
+    <div id="wrap-boyscouts">
     <section id="boyscouts" class="container content-section text-center pattern-section-2">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -170,8 +177,9 @@
             </div>
         </div>
     </section>
+    </div>
 
-    <!-- Download Section -->
+    <!-- Download Section
     <section id="download" class="content-section text-center">
         <div class="">
             <div class="container">
@@ -184,8 +192,11 @@
         </div>
     </section>
 
+     -->
+
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center pattern-section-3" style="padding-bottom: 10px;">
+    <div id="wrap-contact">
+    <section id="contact" class="container content-section text-center" style="padding-bottom: 10px;"> <!-- pattern-section-3 -->
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Alpha Chi Sigma</h2>
@@ -204,9 +215,10 @@
             </div>
         </div>
     </section>
+    </div>
 
     <!-- Footer -->
-    <footer>
+    <footer class="pattern-section-3">
         <div class="container text-center">
             <p>Copyright &copy; Your Website 2014</p>
         </div>
