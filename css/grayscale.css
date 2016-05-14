@@ -309,37 +309,59 @@ a:focus {
 
 
 .content-section {
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 #conclave {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    height: 100vh;
 }
 
 #objects {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #about {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 #boyscouts {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    height: 100vh;
 }
 
 #contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    height: 100vh;
 }
 
 
@@ -397,7 +419,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        height: 100vh;
+        /*height: 100vh;*/
     }
 
     .download-section {
