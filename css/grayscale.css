@@ -307,11 +307,35 @@ a:focus {
     }
 }
 
+@media (max-width: 500px) {
+
+    #icon {
+        font-size: 75px;
+        padding-bottom: 20px
+    }
+}
+
 
 .content-section {
     /*height: 100vh;*/
 }
 
+
+.calendar-container iframe {
+    width: 100%;
+}
+
+.flexbox-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+}
 #conclave {
     display: flex;
     flex-direction: column;
@@ -320,11 +344,11 @@ a:focus {
     padding-top: 50px;
     padding-bottom: 50px;
 
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 #objects {
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -350,7 +374,7 @@ a:focus {
     padding-top: 100px;
     padding-bottom: 50px;
 
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 #contact {
@@ -360,8 +384,6 @@ a:focus {
 
     padding-top: 50px;
     padding-bottom: 50px;
-
-    height: 100vh;
 }
 
 
