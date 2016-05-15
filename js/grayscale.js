@@ -34,6 +34,18 @@ $('.navbar-collapse ul li a').click(function() {
   }
 });
 
+var show = function(id) {
+
+    document.getElementById(id).style.display = 'block';
+
+};
+
+var popupSignup = function() {
+
+    $('#conclavePopup').modal('hide');
+    
+
+}
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below

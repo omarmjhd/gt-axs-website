@@ -36,7 +36,7 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="setTimeout(function() {$('#conclavePopup').modal('show');}, 5000)">
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -150,6 +150,29 @@
         </div>
     </section>
 
+    <!-- Conclave Popup -->
+    <div id="conclavePopup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <img src="img/conclave.png"/>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-default" onclick="popupSignup()">
+                        <a href="http://www.alphachisigma.org/about-us/conclave/53rd-biennial/registration" target="_blank">Sign up</a>
+                    </button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Not Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
     <!-- Conclave Section -->
     <section id="conclave" class="container content-section text-center">
         <div class="row">
@@ -169,7 +192,6 @@
     <!-- TODO: Officers Section -->
 
     <!-- Boy Scouts Section -->
-    <!-- TODO: fix sizing for boyscouts div -->
     <section id="boyscouts" class="container content-section text-center pattern-section-2">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
