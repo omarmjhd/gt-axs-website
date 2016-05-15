@@ -366,6 +366,15 @@ a:focus {
     padding-bottom: 100px;
 }
 
+#officers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 #boyscouts {
     display: flex;
     flex-direction: column;
@@ -376,6 +385,7 @@ a:focus {
 
     /*height: 100vh;*/
 }
+
 
 #contact {
     display: flex;
@@ -417,6 +427,19 @@ a:focus {
     margin:auto;
 }
 
+.img-center {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#officers h3 {
+    margin-bottom: 20px;
+}
+
+#officers small {
+    color: white;
+}
+
 @media (max-width: 500px) {
     #conclavePopup img {
         height: 100px;
@@ -451,18 +474,18 @@ a:focus {
 .pattern-section-2 {
     width: 100%;
     color: #fff;
-    background: url(../img/blue-paint.jpg) no-repeat center center scroll;
+    background: url(../img/blue-leather.jpg) center center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .pattern-section-3 {
     width: 100%;
     color: #fff;
-    background: url(../img/blue-leather.jpg) no-repeat center center scroll;
+    background: url(../img/blue-paint.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
