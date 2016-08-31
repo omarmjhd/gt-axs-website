@@ -274,26 +274,6 @@ a:focus {
     }
 }
 
-#wrap-about {
-    padding-top: 50px;
-}
-
-#wrap-objects {
-    padding-top: 50px;
-}
-
-#wrap-conclave {
-    padding-top: 50px;
-}
-
-#wrap-science {
-    padding-top: 50px;
-}
-
-#wrap-contact {
-    padding-top: 50px;
-}
-
 #icon {
     font-size: 200px;
     padding-bottom: 20px;
@@ -336,7 +316,7 @@ a:focus {
 
     align-items: center;
 }
-#conclave {
+#rush {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -421,8 +401,8 @@ a:focus {
     z-index: -1;
 }
 
-#conclavePopup img {
-    height: 200px;
+#popup img {
+    width: 100%;
     display:block;
     margin:auto;
 }
@@ -438,14 +418,6 @@ a:focus {
 
 #officers small {
     color: white;
-}
-
-@media (max-width: 500px) {
-    #conclavePopup img {
-        height: 100px;
-        display:block;
-        margin:auto;
-    }
 }
 
 .download-section {
